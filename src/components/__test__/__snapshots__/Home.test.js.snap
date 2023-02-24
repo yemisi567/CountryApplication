@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="pt-28"
+  >
+    <div
+      class="md:flex justify-between md:pt-14 md:pb-10 md:gap-10 px-8 md:px-10 "
+    >
+      <div
+        class="flex  rounded-md items-center lg:w-[45vw] gap-4 mt-10 mb-6 md:mt-0 md:mb-0 dark:bg-[#2b3945]  bg-white shadow-md w-full shadow-gray-100 dark:shadow-gray-800 px-6 py-4"
+      >
+        <span />
+        <input
+          class="text-sm outline-none w-full bg-transparent dark:text-white"
+          placeholder="Search for a country ..."
+          type="text"
+        />
+      </div>
+      <select
+        class="p-4 flex justify-start text-md outline-none dark:bg-[#2b3945] dark:text-white"
+        data-testid="countries"
+        id="countries"
+        name="countries"
+      >
+        <option
+          disabled=""
+          selected=""
+          value="selected"
+        >
+          Filter by Region
+        </option>
+        <option
+          value="africa"
+        >
+          Africa
+        </option>
+        <option
+          value="america"
+        >
+          America
+        </option>
+        <option
+          value="asia"
+        >
+          Asia
+        </option>
+        <option
+          value="europe"
+        >
+          Europe
+        </option>
+        <option
+          value="oceania"
+        >
+          Oceania
+        </option>
+        <option
+          value="all"
+        >
+          All
+        </option>
+      </select>
+    </div>
+    <div>
+      <div
+        class="grid pb-10 xl:grid-cols-4 md:grid-cols-2 px-8 justify-items-center dark:bg-[#1F2D36] bg-[#FAFAFA]"
+        data-testid="query"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

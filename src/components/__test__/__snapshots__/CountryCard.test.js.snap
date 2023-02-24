@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <div>
+    <p
+      class="font-bold text-center mt-10"
+    >
+      Error fetching data
+    </p>
+    <div
+      class="grid pb-10 xl:grid-cols-4 md:grid-cols-2 px-8 justify-items-center dark:bg-[#1F2D36] bg-[#FAFAFA]"
+    >
+      <a
+        href="/country/USA"
+      >
+        <div
+          class="bg-white border-[1px] dark:bg-[#2b3945] dark:text-white hover:rounded-none mt-10 w-100% md:w-30 cursor-pointer hover:scale-105 hover:shadow-xl lg:w-[60vw]"
+        >
+          <div
+            class=" h-[200px] xl:w-[300px] lg:w-[450px] md:w-[320px] w-[100%] "
+          >
+            <img
+              alt="USA"
+              class="hover:rounded-none h-full w-full"
+              src="https://flags.fmcdn.net/data/flags/w580/us.png"
+            />
+          </div>
+          <div
+            class="text-left p-4"
+            id="height"
+          >
+            <h3
+              class="font-extrabold text-xl my-2"
+            >
+              USA
+            </h3>
+            <p
+              class="font-semibold"
+            >
+              Population:
+               
+              <span
+                class="font-light"
+              >
+                327,167,434
+              </span>
+            </p>
+            <p
+              class="font-semibold"
+            >
+              Region:
+               
+              <span
+                class="font-light"
+              >
+                Americas
+              </span>
+            </p>
+            <p
+              class="font-semibold"
+            >
+              Capital:
+               
+              <span
+                class="font-light"
+              >
+                Washington D.C.
+                .
+                 
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
