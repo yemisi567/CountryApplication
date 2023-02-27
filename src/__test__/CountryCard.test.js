@@ -1,6 +1,6 @@
-import CountryCards from "../CountryCards";
+import CountryCards from "../components/CountryCards";
 import { render, screen } from "@testing-library/react";
-import Loader from "../Loader";
+import Loader from "../components/Loader";
 import { shallow } from "enzyme";
 
 describe("CountryCards", () => {

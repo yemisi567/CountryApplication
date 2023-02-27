@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import SearchBox from "../SearchBox";
+import SearchBox from "../components/SearchBox";
 
 describe("SearchBox", () => {
   it("should render the select menu and input box", () => {

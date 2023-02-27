@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import { NavBar } from "../Nav";
+import { NavBar } from "../components/Nav";
 import { MemoryRouter } from "react-router-dom";
 
 window.matchMedia =

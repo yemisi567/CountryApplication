@@ -1,5 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Home Component renders properly 1`] = `ShallowWrapper {}`;
+
+exports[`Home Component should render properly 1`] = `ShallowWrapper {}`;
+
 exports[`Home should render correctly 1`] = `
 <DocumentFragment>
   <div
@@ -72,3 +76,7 @@ exports[`Home should render correctly 1`] = `
   </div>
 </DocumentFragment>
 `;
+
+exports[`Home should render the component 1`] = `ShallowWrapper {}`;
+
+exports[`Home should render the home page 1`] = `ShallowWrapper {}`;
