@@ -15,7 +15,6 @@ const MainCountryDetails = () => {
   const [countryDetails, setCountryDetails] = useState([]);
 
   const getSpecificDetails = async () => {
-    setLoading(true);
     try {
       const res = await dispatch(getCountryDetails(name));
       setCountryDetails(res.payload.data[0]);
@@ -29,7 +28,11 @@ const MainCountryDetails = () => {
   };
 
   useEffect(() => {
-    getSpecificDetails();
+    setLoading(true);
+    const timer = setTimeout(() => {
+      getSpecificDetails();
+    }, 500);
+    return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
