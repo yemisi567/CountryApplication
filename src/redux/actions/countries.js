@@ -1,6 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import CONSTANTS from "../../utils/constants";
+
 const API_URL = "https://restcountries.com";
 export const getCountries = createAsyncThunk("fetchCountries", async () => {
   const response = await axios.get(`${API_URL}/v3.1/all`);
