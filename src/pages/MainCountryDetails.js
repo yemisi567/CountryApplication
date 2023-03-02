@@ -31,7 +31,7 @@ const MainCountryDetails = () => {
     setLoading(true);
     const timer = setTimeout(() => {
       getSpecificDetails();
-    }, 500);
+    }, 200);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
